@@ -1,17 +1,45 @@
-# app_kalkulator
+# 🚀 Aplikasi kalkulator mzkyzak
 
-A new Flutter project.
+Aplikasi kalkulator yang dibangun menggunakan **Flutter**. Tidak hanya sekadar alat hitung, aplikasi ini menggabungkan komputasi saintifik dengan UI/UX kelas atas: *Glassmorphism*, efek animasi (JJ), Liquid RGB Border, dan sistem penyimpanan riwayat permanen.
 
-## Getting Started
+Didesain eksklusif oleh **mzkyzak**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Fitur Utama (Key Features)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* 📐 **Scientific & Basic Calculation:** Mendukung operasi matematika dasar hingga fungsi saintifik kompleks (Sin, Cos, Tan, Log, Ln, Akar, Pangkat, Pi, dan Euler). Menggunakan `math_expressions` untuk komputasi akurat.
+* 🧠 **Smart Memory Functions (MC, MR, M+, M-):** Fitur penyimpanan memori dengan indikator "M = ..." yang muncul otomatis di layar saat ada angka yang disimpan.
+* 💾 **Permanent History Drawer:** Riwayat perhitungan disimpan ke penyimpanan lokal menggunakan `shared_preferences`. Data tidak akan hilang meskipun aplikasi ditutup paksa.
+* 🪩 **JJ Mode (Jedag Jedug Animation):** Mode interaktif yang memberikan efek *bass pulse* (layar berdetak) dan *haptic shake* (getaran hebat) saat tombol `=` ditekan. Mode ini bisa dimatikan/dinyalakan melalui tombol khusus.
+* 🌈 **Liquid RGB Border:** Border animasi neon berputar yang dinamis mengelilingi area *keypad*.
+* ✨ **Extreme Glassmorphism UI:** Desain tembus pandang futuristik dengan efek pantulan cahaya (*inner glow*), *blur*, dan bayangan realistis.
+* 🌌 **Live Cyber Background:** Latar belakang dinamis dengan proyektil *Hyper Orbs* yang bergerak secara diagonal tanpa henti.
+* 🌓 **Smart Theme Toggle:** Pergantian mulus antara Mode Gelap (Dark) dan Terang (Light) yang mengubah seluruh palet warna dan intensitas *glow*.
+* 📱 **100% Responsive Layout:** Dibangun murni menggunakan sistem *Flex/Expanded*, dijamin anti-kepotong di ukuran layar HP apa pun.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Teknologi & Dependencies (Tech Stack)
+
+Aplikasi ini menggunakan Flutter SDK dengan tambahan *package* eksternal berikut:
+* [flutter_animate](https://pub.dev/packages/flutter_animate) - Untuk animasi visual yang *fluid* (shimmer, shake, pulse, fade, slide).
+* [math_expressions](https://pub.dev/packages/math_expressions) - Untuk mem-*parsing* dan mengevaluasi rumus matematika yang diketik secara langsung (*Live Preview*).
+* [shared_preferences](https://pub.dev/packages/shared_preferences) - Untuk menyimpan data riwayat (History) secara permanen di memori HP.
+
+---
+
+## ⚙️ Cara Instalasi & Menjalankan (Getting Started)
+
+### Prasyarat
+Pastikan komputer lo sudah ter-install **Flutter SDK** (versi 3.0 ke atas disarankan) dan emulator Android/iOS, atau *device* fisik yang terhubung.
+
+### Langkah-langkah:
+1. **Clone repositori ini** atau ekstrak *source code* ke komputermu.
+2. Buka terminal di dalam folder proyek, lalu jalankan perintah untuk mengunduh semua dependencies:
+   ```cmd
+   flutter pub get
+
+    ```
+    ```cmd
+    flutter run
