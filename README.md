@@ -32,7 +32,7 @@ Aplikasi ini menggunakan Flutter SDK dengan tambahan *package* eksternal berikut
 ## ⚙️ Cara Instalasi & Menjalankan (Getting Started)
 
 ### Prasyarat
-Pastikan komputer lo sudah ter-install **Flutter SDK** (versi 3.0 ke atas disarankan) dan emulator Android/iOS, atau *device* fisik yang terhubung.
+Pastikan komputer lo sudah ter-install **Flutter SDK** dan MSVC v143 (atau v142) - C++ x64/x86 build tools.Windows 10 SDK atau Windows 11 SDK.C++ CMake tools for Windows Di visual studio installer.
 
 ### Langkah-langkah:
 1. **Clone repositori ini** atau ekstrak *source code* ke komputermu.
