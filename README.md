@@ -15,6 +15,7 @@ Didesain eksklusif oleh **mzkyzak**.
 * 🌈 **Liquid RGB Border:** Border animasi neon berputar yang dinamis mengelilingi area *keypad*.
 * ✨ **Extreme Glassmorphism UI:** Desain tembus pandang futuristik dengan efek pantulan cahaya (*inner glow*), *blur*, dan bayangan realistis.
 * 🌌 **Live Cyber Background:** Latar belakang dinamis dengan proyektil *Hyper Orbs* yang bergerak secara diagonal tanpa henti.
+* 🎵 **DJ Kicau Mania (Loop):** Fitur pemutar musik latar belakang (Background Music) yang berjalan secara *loop* paksa tanpa henti selama kamu menghitung. Bisa di-toggle on/off melalui ikon musik di header.
 * 🌓 **Smart Theme Toggle:** Pergantian mulus antara Mode Gelap (Dark) dan Terang (Light) yang mengubah seluruh palet warna dan intensitas *glow*.
 * 📱 **100% Responsive Layout:** Dibangun murni menggunakan sistem *Flex/Expanded*, dijamin anti-kepotong di ukuran layar HP apa pun.
 
